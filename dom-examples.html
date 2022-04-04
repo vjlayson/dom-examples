@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Examples</title>
+    <style>
+        form {
+            max-width: 480px;
+        }
+        .boxform {
+            background-color: lightskyblue;
+            box-sizing: border-box;
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Example of DOM Toggles</h2>
+
+    <button id="btn-register">Click to Register</button>
+    <div id="reg-div">
+        <form action="">
+            <label for="">Username:</label>
+            <input type="text" name="username"><br>
+            <label for="">Password:</label>
+            <input type="text" name="password"><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <p id="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur eligendi quibusdam praesentium sit necessitatibus quasi modi! Totam fugit numquam culpa repellendus libero, repudiandae odit, consequatur aperiam cumque cum, animi atque.</p>
+
+    <button id="btn-hide">hide text</button>
+    <button id="btn-show">show text</button>
+
+    <h2>Creating a new node</h2>
+    <ul id="menu"></ul>
+    <br>
+
+    <h2>List of Fruits</h2>
+    <ul id="fruits">
+        <li>Apple</li>
+        <li>Banana</li>
+    </ul>
+    <button id="btn-fruit">Add fruits</button>
+    <br>
+    <br>
+
+    <label for="">Fruit</label>
+    <input id="prutas" type="text">
+    <label for="">Quantity</label>
+    <input id="quantity" type="number">
+    <button id="btnFruits">Add Fruits</button>
+    <br>
+    <br>
+
+    <label for="">Select Fruits</label>
+    <select name="" id="myselect">
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="ube">Ube</option>
+        <option value="lemon">Lemon</option>
+    </select>
+    <br>
+    <button id="btn-js">Get the selected index</button>
+    <button id="btn-js2">Display selected index & value</button>
+    <br><br>
+
+    <label for="">Select programming languages</label>
+    <select name="" id="prog" multiple>
+        <option value="c">C</option>
+        <option value="php">PHP</option>
+        <option value="python">Python</option>
+        <option value="java">Java</option>
+    </select>
+    <br><br>
+
+    <button id="submit1">Select using for loop</button>
+    <button id="submit2">Select using query selector all</button>
+
+
+    <script src="js/dom.js"></script>
+</body>
+</html>
